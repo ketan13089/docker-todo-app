@@ -60,13 +60,13 @@ To run the entire application using Docker:
 
 ```bash
 # Build and start the containers
-docker-compose up --build
+docker compose up --build
 
 # To run in detached mode
-docker-compose up -d --build
+docker compose up -d --build
 
 # To stop the containers
-docker-compose down
+docker compose down
 ```
 
 The application will be available at:
